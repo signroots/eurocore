@@ -7735,8 +7735,14 @@ input.main-search-input::placeholder {
     }
 }
 
+.contact-card .contact-content {
+    width: 100%;
+    flex: 1;
+}
+
 .contact-card .contact-content p {
     width: 100%;
-    line-height: 1.8;
+    max-width: 100%;
     word-break: break-word;
+    line-height: 1.8;
 }
