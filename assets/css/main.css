@@ -7746,3 +7746,10 @@ input.main-search-input::placeholder {
     word-break: break-word;
     line-height: 1.8;
 }
+@media (max-width: 767px) {
+    .contact-content p a[href^="tel:"],
+    .contact-content p a[href^="mailto:"] {
+        display: block;
+        margin-top: 5px;
+    }
+}
