@@ -7720,7 +7720,7 @@ input.main-search-input::placeholder {
 
 
 @media (max-width: 767px) {
-    .contact-info-items .content h3 {
+    .contact-info-area .contact-info-items .content h3 a {
         font-size: 16px;
         line-height: 1.4;
     }
