@@ -7991,3 +7991,8 @@ input.main-search-input::placeholder {
 .team-grid{
     margin-bottom: 80px;
 }
+
+.leader-card h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
