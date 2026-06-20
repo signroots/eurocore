@@ -7962,7 +7962,7 @@ input.main-search-input::placeholder {
     line-height:1.8;
     color:#666;
     margin-bottom:0;
-    text-align: left;
+    text-align: justify;
 }
 
 /* Tablet */
