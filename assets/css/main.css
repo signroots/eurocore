@@ -9281,3 +9281,14 @@ textarea:focus:invalid {
     }
 
 }
+.map-box {
+    width:100%;
+    height:550px;
+    overflow:hidden;
+    border-radius:20px;
+}
+
+.map-box iframe {
+    width:100%;
+    height:100%;
+}
