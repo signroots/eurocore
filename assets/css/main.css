@@ -9522,3 +9522,18 @@ textarea:focus:invalid {
     }
 
 }
+
+
+
+@media (max-width: 575px) {
+
+    .hero-section,
+    .swiper,
+    .swiper-slide,
+    .hero-image,
+    .video-bg {
+        height: 600px !important;
+        min-height: 600px !important;
+    }
+
+}
