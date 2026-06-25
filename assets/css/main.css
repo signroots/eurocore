@@ -9532,7 +9532,7 @@ textarea:focus:invalid {
     .swiper-slide,
     .hero-image,
     .video-bg {
-        height: 600px !important;
+        height: 700px !important;
         min-height: 600px !important;
     }
 
