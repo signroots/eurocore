@@ -551,7 +551,7 @@ CSS TABLE OF CONTENTS
 
     function loader() {
     $(window).on('load', function() {
-        $(".preloader").fadeOut(200);
+        $(".preloader").hide();
     });
 }
     loader();
