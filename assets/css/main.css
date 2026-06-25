@@ -9525,3 +9525,19 @@ textarea:focus:invalid {
 
 
 
+@media (max-width: 767px){
+
+    .hero-content h1{
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero-content p{
+        font-size: 15px;
+    }
+
+    .hero-content{
+        padding: 120px 20px 60px;
+        text-align:center;
+    }
+}
