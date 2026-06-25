@@ -9541,3 +9541,11 @@ textarea:focus:invalid {
         text-align:center;
     }
 }
+@media (max-width: 767px){
+
+    .hero-slider,
+    .swiper-slide{
+        height: auto !important;
+        min-height: 100svh;
+    }
+}
