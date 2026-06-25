@@ -9549,3 +9549,10 @@ textarea:focus:invalid {
         min-height: 100svh;
     }
 }
+.swiper-slide {
+    height: auto !important;
+}
+
+.hero-slider {
+    overflow: hidden;
+}
