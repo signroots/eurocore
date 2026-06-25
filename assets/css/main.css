@@ -9281,6 +9281,8 @@ textarea:focus:invalid {
     }
 
 }
+
+/*Contact map section */
 .map-box {
     overflow: hidden;
     height: 500px;
@@ -9290,6 +9292,43 @@ textarea:focus:invalid {
     width: 100%;
     height: 560px;
     margin-top: -67px;
+}
+
+
+/*home service section */
+
+.service-section-33 .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-section-33 .col-xl-3,
+.service-section-33 .col-lg-4,
+.service-section-33 .col-md-6 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.service-card-items-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.service-list {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.arrow-icon {
+    margin-top: auto;
 }
 
 /*video for hero */
@@ -9390,3 +9429,6 @@ textarea:focus:invalid {
     position: relative;
     overflow: hidden;
 }
+
+
+
