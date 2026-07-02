@@ -9388,13 +9388,25 @@ textarea:focus:invalid {
     min-height: 100vh;
 }
 
+/* Desktop */
 .hero-3 .swiper-slide {
-  height: 120vh;
+    height: 120vh;
 }
 
 .hero-3 .hero-image {
-  height: 100%;
-  overflow: hidden;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+    .hero-3 .swiper-slide {
+        height: 70vh;   /* Change this value as needed */
+    }
+
+    .hero-3 .hero-image {
+        height: 70vh;
+    }
 }
 
 
