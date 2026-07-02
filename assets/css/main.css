@@ -9401,7 +9401,7 @@ textarea:focus:invalid {
 /* Mobile */
 @media (max-width: 767.98px) {
     .hero-3 .swiper-slide {
-        height: 70vh;   /* Change this value as needed */
+        height: 90vh;   /* Change this value as needed */
     }
 
     .hero-3 .hero-image {
