@@ -9406,26 +9406,3 @@ textarea:focus:invalid {
 
 
 
-@media (max-width: 768px) {
-
-    /* Always show project text on mobile */
-    .project-wrapper .box .project-content {
-        opacity: 1 !important;
-        visibility: visible !important;
-        transform: none !important;
-        position: relative !important;
-    }
-
-    /* Disable hover effects */
-    .project-wrapper .box:hover .project-content {
-        opacity: 1 !important;
-        visibility: visible !important;
-        transform: none !important;
-    }
-
-    /* Optional: remove hover background animation effect */
-    .project-wrapper .box::before,
-    .project-wrapper .box::after {
-        display: none !important;
-    }
-}
