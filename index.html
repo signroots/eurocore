@@ -232,6 +232,7 @@
 
         <div id="smooth-wrapper">
             <div id="smooth-content">
+                
                 <!-- Hero Section Start -->
                 <section class="hero-section hero-3">
                     <div class="swiper-dot-2">
@@ -240,11 +241,20 @@
                     <div class="swiper hero-slider-3">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="hero-image" style="background-image: url('assets/img/hero/hero-3.png');">
+                                <div class="hero-image video-bg">
+
+                                    <!-- Background Video -->
+                                    <video autoplay muted loop playsinline class="hero-video">
+                                        <source src="assets/img/hero/hero-video.mp4" type="video/mp4">
+                                        
+                                    </video>
+
+                                    <!-- Optional Overlay --
+                                    <div class="video-overlay"></div>-->
+
                                     <div class="row">
                                         <div class="col-lg-8">
                                             <div class="hero-content">
-                                               
                                                 <h1 data-animation="fadeInUp" data-delay="1.5s">
                                                     The Core of Industrial Innovation
                                                 </h1>
@@ -252,55 +262,87 @@
                                                     Delivering advanced HVAC solutions, steel fabrication, industrial maintenance, and global steel trading solutions.
                                                 </p>
                                                 <div class="hero-button">
-                                                    <a href="about-us.html" data-animation="fadeInUp" data-delay="1.9s" class="theme-btn bg-white">Explore more<i class="fa-regular fa-arrow-right"></i></a>
+                                                    <a href="about-us.html" data-animation="fadeInUp" data-delay="1.9s" class="theme-btn bg-white">
+                                                        Explore more <i class="fa-regular fa-arrow-right"></i>
+                                                    </a>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                           <div class="swiper-slide">
+                            <div class="hero-image video-bg">
+
+                                <!-- Background Video --
+                                <video class="hero-video" autoplay muted loop playsinline>
+                                    <source src="assets/video/hvac-video.mp4" type="video/mp4">
+                                </video>
+
+                                <!-- Dark Overlay -->
+                                <div class="video-overlay"></div>
+
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <div class="hero-content">
+
+                                            <h1 data-animation="fadeInUp" data-delay="1.5s">
+                                                Complete HVAC Engineering Solutions
+                                            </h1>
+
+                                            <p data-animation="fadeInUp" data-delay="1.7s">
+                                                Providing HVAC supply, installation, testing, and commissioning services for industrial and commercial facilities.
+                                            </p>
+
+                                            <div class="hero-button">
+                                                <a href="about-us.html" data-animation="fadeInUp" data-delay="1.9s" class="theme-btn bg-white">
+                                                    Explore more <i class="fa-regular fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+                        </div>
                             <div class="swiper-slide">
-                                <div class="hero-image" style="background-image: url('assets/img/hero/hero-3.png');">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <div class="hero-content">
-                                                
-                                               <h1 data-animation="fadeInUp" data-delay="1.5s">
-                                                    Complete HVAC Engineering Solutions
-                                                </h1>
-                                                <p data-animation="fadeInUp" data-delay="1.7s">
-                                                    Providing HVAC supply, installation, testing, and commissioning services for industrial and commercial facilities.
-                                                </p>
-                                                </p>
-                                                <div class="hero-button">
-                                                    <a href="about-us.html" data-animation="fadeInUp" data-delay="1.9s" class="theme-btn bg-white">Explore more<i class="fa-regular fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                    <div class="hero-image video-bg">
+
+                        <!-- Background Video -->
+                        <video class="hero-video" autoplay muted loop playsinline>
+                            <source src="assets/video/fabrication-video.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- Overlay -->
+                        <div class="video-overlay"></div>
+
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="hero-content">
+
+                                    <h1 data-animation="fadeInUp" data-delay="0.3s">
+                                        Industrial Fabrication Solutions
+                                    </h1>
+
+                                    <p data-animation="fadeInUp" data-delay="0.5s">
+                                        Structural steel fabrication, tank manufacturing, shutdown services, and global steel sourcing with quality reliability.
+                                    </p>
+
+                                    <div class="hero-button">
+                                        <a href="about-us.html" data-animation="fadeInUp" data-delay="0.7s" class="theme-btn bg-white">
+                                            Explore more <i class="fa-regular fa-arrow-right"></i>
+                                        </a>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="hero-image" style="background-image: url('assets/img/hero/hero-3.png');">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <div class="hero-content">
-                                                
-                                               <h1 data-animation="fadeInUp" data-delay="1.5s">
-                                                    Industrial Fabrication Solutions
-                                                </h1>
-                                                <p data-animation="fadeInUp" data-delay="1.7s">
-                                                    Structural steel fabrication, tank manufacturing, shutdown services, and global steel sourcing with quality reliability.
-                                                </p>
-                                                <div class="hero-button">
-                                                    <a href="about-us.html" data-animation="fadeInUp" data-delay="1.9s" class="theme-btn bg-white">Explore more<i class="fa-regular fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                </div>
+                                        </div>
                     </div>
                 </section>
 
@@ -384,7 +426,7 @@
                                         <ul class="service-list">
                                         <li> Power Plant Turnarounds & Shutdown Services</li>
                                         <li>Industrial Maintenance Solutions</li>
-                                      
+                                      <br><br><br>
                                     </ul>
                                         <a href="services.html" class="arrow-icon"><i class="fa-regular fa-arrow-right"></i></a>
                                     </div>
@@ -406,8 +448,7 @@
                                         <ul class="service-list">
                                         <li>Global Steel Trading</li>
                                         <li>Industrial Procurement Services</li>
-                                        </ul>
-                                        
+                                        <br><br><br><br>
                                         <a href="services.html" class="arrow-icon"><i class="fa-regular fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -419,7 +460,7 @@
 
                  <!-- About Section Start -->
 <section class="achivements-section fix section-padding">
-   
+    
     <div class="container">
         <div class="achivements-wrapper style-3">
             <div class="row g-4 justify-content-between align-items-center">
