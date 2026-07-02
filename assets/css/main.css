@@ -9406,3 +9406,20 @@ textarea:focus:invalid {
 
 
 
+/* Hide mobile on desktop */
+.mobile-project {
+    display: none;
+}
+
+/* Hide desktop on mobile */
+@media (max-width: 768px) {
+    .desktop-project {
+        display: none;
+    }
+
+    .mobile-project {
+        display: block;
+    }
+}
+
+
